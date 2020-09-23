@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user enter valid data",
+        "description": "",
+        "id": "loginpage;user-enter-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24738212785,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is given the valid \"https://www.amazon.in\" and click on signbutton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.in",
+                  "offset": 25
+                }
+              ],
+              "location": "Scripts.user_is_given_the_valid_URL_and_click_on_signbutton(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3132613247,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid \"sujithkumar969@gmail.com\" and click on continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sujithkumar969@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Scripts.user_enter_valid_user_name_and_click_on_continue_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9905064495,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter valid \"a7259318108a\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a7259318108a",
+                  "offset": 18
+                }
+              ],
+              "location": "Scripts.user_enter_valid_a_a_and_click_on_login_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10629396,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be successfully login to the application",
+            "match": {
+              "location": "Scripts.user_should_be_successfully_login_to_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "loginpage",
+    "description": "",
+    "id": "loginpage",
+    "keyword": "Feature",
+    "uri": "E:/My_Projects/Work_Space_03/newcucumber/src/login.feature",
+    "tags": []
+  }
+]
